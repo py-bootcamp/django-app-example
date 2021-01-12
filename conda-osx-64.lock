@@ -1,0 +1,22 @@
+# platform: osx-64
+# env_hash: d61482897ba03ee2949a4cfee347e26fd4c55acf16e411d013d5ed64704c1219
+@EXPLICIT
+https://conda.anaconda.org/conda-forge/osx-64/ca-certificates-2020.12.5-h033912b_0.tar.bz2#4483d8ea13bd57b52e3539e741501a7d
+https://conda.anaconda.org/conda-forge/osx-64/libcxx-11.0.0-h4c3b8ed_1.tar.bz2#6a22f1c899bcf110c39cd6d959a8555e
+https://conda.anaconda.org/conda-forge/osx-64/ncurses-6.2-h2e338ed_4.tar.bz2#9cef1910395d1543527583e73dba30f1
+https://conda.anaconda.org/conda-forge/osx-64/xz-5.2.5-haf1e3a3_1.tar.bz2#41116deb499e9bc58048c297d6403ce6
+https://conda.anaconda.org/conda-forge/osx-64/zlib-1.2.11-h7795811_1010.tar.bz2#7d39e47e16ed0107f37c7224d5b5be8b
+https://conda.anaconda.org/conda-forge/osx-64/libffi-3.3-h046ec9c_2.tar.bz2#c7a196accaf92d40985d5c9b4d14f9cb
+https://conda.anaconda.org/conda-forge/osx-64/openssl-1.1.1i-h35c211d_0.tar.bz2#f26df9ccde4b41ff4d2b18c83c4d0fd3
+https://conda.anaconda.org/conda-forge/osx-64/readline-8.0-h0678c8f_2.tar.bz2#8f69d684fce8e73328995d7efb77816a
+https://conda.anaconda.org/conda-forge/osx-64/tk-8.6.10-h0419947_1.tar.bz2#9a79a432473acddd936ff8bab8b86145
+https://conda.anaconda.org/conda-forge/osx-64/sqlite-3.34.0-h17101e1_0.tar.bz2#9e9694f119bb1a2362a0cc0249651835
+https://conda.anaconda.org/conda-forge/osx-64/python-3.8.6-h624753d_4_cpython.tar.bz2#8832475a71a7a9b3eb94b550fe053705
+https://conda.anaconda.org/conda-forge/noarch/asgiref-3.3.1-pyhd8ed1ab_0.tar.bz2#8d202820f2b56547ed8bd87eba37ba57
+https://conda.anaconda.org/conda-forge/osx-64/python_abi-3.8-1_cp38.tar.bz2#5fe7757fd743e1c2d14d6170d4f53365
+https://conda.anaconda.org/conda-forge/noarch/pytz-2020.5-pyhd8ed1ab_0.tar.bz2#9dbafab7fbbc1ef46a60858fb6320d8a
+https://conda.anaconda.org/conda-forge/noarch/sqlparse-0.4.1-pyh9f0ad1d_0.tar.bz2#009a8c5d2c3a17b25bfe79edeb64e0f3
+https://conda.anaconda.org/conda-forge/osx-64/certifi-2020.12.5-py38h50d1736_1.tar.bz2#fe528d606027dc2848f5a3577ab9b4eb
+https://conda.anaconda.org/conda-forge/noarch/django-3.1.5-pyhd8ed1ab_0.tar.bz2#dc2e06a8d5823309963a83ddf20c1653
+https://conda.anaconda.org/conda-forge/osx-64/setuptools-49.6.0-py38h50d1736_3.tar.bz2#af8a81ee7c2c09fc2884c800a044b616
+https://conda.anaconda.org/conda-forge/osx-64/gunicorn-20.0.4-py38h50d1736_3.tar.bz2#38b3449c33f795bc03235b4ffeef1abd
