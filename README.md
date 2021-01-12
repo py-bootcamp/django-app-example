@@ -20,6 +20,12 @@ docker build -t django-app -f Dockerfile.poetry .
 docker build -t django-app -f Dockerfile.conda .
 ```
 
+## To build for conda with multistage
+
+```
+docker build -t django-app -f Dockerfile.conda-multistage .
+```
+
 ## To run the image
 
 ```
