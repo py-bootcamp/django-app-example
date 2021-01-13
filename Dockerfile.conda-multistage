@@ -1,11 +1,10 @@
 FROM continuumio/miniconda:4.7.12 as base
 
-ENV PIP_NO_CACHE_DIR=True
-
-COPY environment.yml ./
+COPY conda-linux-64.lock ./
 
 RUN mkdir -p /project/.venv && \
-    conda env create -qp /project/.venv
+    conda create -qyp /project/.venv --copy --file /conda-linux-64.lock && \
+    conda clean -aqy
 
 FROM ubuntu:20.04
 
