@@ -8,6 +8,8 @@ def healthcheck(request):
     hostname = os.environ.get("HOSTNAME")
     return JsonResponse({
         'version': version,
-        'status': 'OK',
+        'status': 'KO',
         'hostname': hostname
-        })
+        },
+        status=400
+        )
