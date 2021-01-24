@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: django-app
+  name: django-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: django-app
+  template:
+    metadata:
+      labels:
+        app: django-app
+    spec:
+      containers:
+      - name: django-app
+        image: pybootcamp/django-app:v1
+
+        # uncomment to play with liveness probe
+        # livenessProbe:
+        #   httpGet:
+        #     path: /healthz
+        #     port: 8080
+        #   initialDelaySeconds: 30
+        #   periodSeconds: 20
+        #   timeoutSeconds: 20
+        #   failureThreshold: 5
+
+        ports:
+          - containerPort: 8080
