@@ -17,16 +17,31 @@ spec:
       containers:
       - name: django-app
         image: pybootcamp/django-app:v1
+        imagePullPolicy: Always
 
         # uncomment to play with liveness probe
+        # lifecycle:
+        #     preStop:
+        #       exec:
+        #         command: ["sleep", "10"]
+
         # livenessProbe:
         #   httpGet:
         #     path: /healthz
         #     port: 8080
-        #   initialDelaySeconds: 30
+        #   initialDelaySeconds: 10
         #   periodSeconds: 20
         #   timeoutSeconds: 20
         #   failureThreshold: 5
+
+        # readinessProbe:
+        #   httpGet:
+        #     path: /healthz
+        #     port: 8080
+        #   initialDelaySeconds: 10
+        #   periodSeconds: 10
+        #   timeoutSeconds: 10
+        #   failureThreshold: 3
 
         ports:
           - containerPort: 8080
